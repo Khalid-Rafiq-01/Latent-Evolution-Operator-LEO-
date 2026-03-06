@@ -1,0 +1,8 @@
+Using device: cuda
+num train files: 4400
+U_train shape: (4400, 88, 96, 192)
+num val files: 700
+U_val shape: (700, 88, 96, 192)
+u_mean: -0.4554002285003662 u_std: 3.442967653274536
+[Epoch 1/50] Train: total=1.1312e+00, rec=4.4866e-01, dir=7.8581e-01, kld=4.0977e+00 | Val: total=9.4649e-01, rec=2.9933e-01, dir=7.4436e-01, kld=4.1250e+00 | lr=8.91e-05
+  -> New best val loss! Checkpoint saved to ./checkpoints/best_flexi_swe_vae_3i5i5r8k.pth

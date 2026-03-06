@@ -1,0 +1,19 @@
+program: train_D_EvOp.py
+method: bayes
+project: AE_Direct_EvOp
+
+metric:
+  name: val/loss
+  goal: minimize
+
+parameters:
+  batch_size:
+    values: [64, 128, 256]
+  lr:
+    min: 0.00001
+    max: 0.001
+  epochs:
+    values: [75, 150, 200]
+  zeta:
+    min: 0.5
+    max: 4.5

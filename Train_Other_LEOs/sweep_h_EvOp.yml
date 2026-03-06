@@ -1,0 +1,24 @@
+program: train_Hybrid_EvOp.py
+method: bayes
+project: AE_Hybrid_EvOp
+metric:
+  name: val/loss
+  goal: minimize
+
+parameters:
+  batch_size:
+    values: [64, 128, 256]
+  lr:
+    min: 0.00001
+    max: 0.001
+  epochs:
+    values: [75, 150, 200, 400]
+  lambda_align_max:
+    min: 0.5
+    max: 3.0
+  warmup_frac:
+    min: 0.2
+    max: 0.6
+  lambda_direct:
+    min: 0.5
+    max: 4.0

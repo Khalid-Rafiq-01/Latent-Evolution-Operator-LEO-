@@ -1,0 +1,208 @@
+{
+    "os": "Linux-6.8.0-90-generic-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "heartbeatAt": "2025-12-19T23:07:21.248752",
+    "startedAt": "2025-12-19T23:07:20.922650",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--beta=0.0025095688298201416",
+        "--lambda_dir=0.8555066313139993",
+        "--latent_dim=20",
+        "--lr=8.918411822489e-05",
+        "--samples_per_traj_train=5"
+    ],
+    "state": "running",
+    "program": "/home/krafiq/Desktop/LEO/SWE/Training/train_swe_vae.py",
+    "codePathLocal": "train_swe_vae.py",
+    "codePath": "train_swe_vae.py",
+    "host": "053146d6c73fl",
+    "username": "krafiq",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 24,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 2.3795625,
+        "min": 800.0,
+        "max": 4937.5
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 5.5,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 5.5,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 5.584,
+            "min": 800.0,
+            "max": 5800.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5800.0
+        },
+        {
+            "current": 5.644,
+            "min": 800.0,
+            "max": 5800.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5800.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 4.297,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 4.3,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 4.296,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 4.254,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 4.357,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 4.36,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 0.8,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 4.262,
+            "min": 800.0,
+            "max": 4300.0
+        },
+        {
+            "current": 4.299,
+            "min": 800.0,
+            "max": 4300.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1832.6172943115234,
+            "used": 1608.6792221069336
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3090",
+            "memory_total": 25769803776
+        }
+    ],
+    "memory": {
+        "total": 125.57742691040039
+    }
+}

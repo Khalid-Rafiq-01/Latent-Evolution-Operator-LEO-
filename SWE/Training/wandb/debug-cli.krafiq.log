@@ -1,0 +1,10 @@
+2025-12-19 15:07:19 INFO Running runs: []
+2025-12-19 15:07:19 INFO Agent received command: run
+2025-12-19 15:07:19 INFO Agent starting run with config:
+	beta: 0.0025095688298201416
+	lambda_dir: 0.8555066313139993
+	latent_dim: 20
+	lr: 8.918411822489e-05
+	samples_per_traj_train: 5
+2025-12-19 15:07:19 INFO About to run command: /usr/bin/env python train_swe_vae.py --beta=0.0025095688298201416 --lambda_dir=0.8555066313139993 --latent_dim=20 --lr=8.918411822489e-05 --samples_per_traj_train=5
+2025-12-19 15:07:24 INFO Running runs: ['3i5i5r8k']

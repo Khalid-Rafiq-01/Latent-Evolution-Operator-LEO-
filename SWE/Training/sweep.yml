@@ -1,0 +1,23 @@
+program: train_swe_vae.py
+method: bayes
+project: d_leo_vae_swe
+metric:
+  name: val/total
+  goal: minimize
+parameters:
+  lr:
+    distribution: log_uniform_values
+    min: 1e-5
+    max: 3e-3
+  latent_dim:
+    values: [20]
+  lambda_dir:
+    distribution: uniform
+    min: 0.1
+    max: 2.5
+  beta:
+    distribution: uniform
+    min: 1e-6
+    max: 1e-2
+  samples_per_traj_train:
+    values: [3, 5]
