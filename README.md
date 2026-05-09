@@ -16,9 +16,11 @@ $$
 
 so the model can re-anchor from any intermediate transient state and forecast forward in a single latent-space evaluation.
 
+
+
 Given an input state $u(t,\zeta)$, physical parameters $\zeta$, and forecast horizon $\tau$, LEO predicts:
 
-$$
+```math
 \hat{u}(t+\tau,\zeta)
 =
 D_{\theta_d}
@@ -27,10 +29,12 @@ P_{\theta_p}
 \left(
 E_{\theta_e}(u(t,\zeta)), \tau, \zeta
 \right)
-\right),
-$$
+\right)
+```
 
 where $E_{\theta_e}$ is an encoder, $P_{\theta_p}$ is a latent propagator, and $D_{\theta_d}$ is a decoder.
+
+
 
 ## Overview
 
