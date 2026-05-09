@@ -16,7 +16,7 @@ $$
 
 so the model can re-anchor from any intermediate transient state and forecast forward in a single latent-space evaluation.
 
-Given an input state $u(t,\zeta)$, physical parameters $\zeta$, and forecast horizon $\tau$, LEO predicts
+Given an input state $u(t,\zeta)$, physical parameters $\zeta$, and forecast horizon $\tau$, LEO predicts:
 
 $$
 \hat{u}(t+\tau,\zeta)
